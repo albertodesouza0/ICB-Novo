@@ -1,31 +1,40 @@
+body{
+    background-color: rgb(255, 255, 255) !important;
+    font-family: "Inter" !important;
+}
+
 #logoPrincipal{
-    width: 70px;
+    width: 65px;
+    position: relative;
+    margin-top: -5px;
+    margin-left: 10px;
 }
 
 header {
     display: flex;
     align-items: center;
-    background-color: rgb(241, 241, 241);
-    width: 100vw; /* Usa 100% da largura da viewport */
-    left: 0; /* Garante que fique na esquerda */
+    background-color: rgb(236, 236, 236);
+    width: 100%; /* Usa 100% da largura da viewport */
+    left: 0px; /* Garante que fique na esquerda */
     justify-content: space-between; /* Garante que os itens sejam distribuídos adequadamente */
 }
 
+#logoSlogan{
+    margin-right: 100%;
+    margin-left: 3px;
+
+}
 #nomeIgreja {
+    margin-top: 19px;
     font-family: "Anton";
     font-style: normal; 
     white-space: nowrap; /*Impede a quebra de linha*/
-  }
-
-#logoSlogan{
-    margin-right: 100%;
-    margin-left: 5px;
-
 }
 
 #slogan {
     font-family: "Londrina Solid";
     text-align: right;
+    margin-right: 1px;
     margin-top: -15px;
     position: relative;
 } 
