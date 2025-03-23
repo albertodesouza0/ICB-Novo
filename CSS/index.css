@@ -1,8 +1,10 @@
 body{
     background: url(/IMAGENS/Background.jpg);
-    font-family: "Inter" !important;
     background-size: cover; /*ajusta a imagem na tela todo*/
+    font-family: "Inter" !important;
     background-position: center;
+    height: 100vh;/* Faz o body ocupar toda a altura da tela */
+    margin: 0; /* Remove as margens padrão */
 }
 
 #logoPrincipal{
@@ -43,13 +45,17 @@ header {
 
 form{
     background-color: rgb(255, 255, 255);
-    padding: 50px;
-    border-radius: 10px;
-    position: absolute; /* Posiciona o formulário independentemente dos outros elementos */
-    top: 50%; /* Move o topo para o centro da tela */
-    left: 50%; /* Move a esquerda para o centro da tela */
-    transform: translate(-50%, -50%); /* Ajusta para centralizar perfeitamente */
+    color: rgb(0, 0, 0);
+    border: 2px solid rgba(0, 0, 0, 0.404);
+    padding: 25px; /*Define a margem*/
+    border-radius: 10px; /*Cantos arredondados*/
+    position: absolute /*Define o tamanho do background indiretamente*/;
+    left: 50%; /*Horizontal*/
+    top:50%; /*Vertical*/
+    transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
-    align-items: baseline;
+    align-items: center;
+    width: 420px;
+    max-width: 450px;
 }
