@@ -2,52 +2,30 @@
     width: 70px;
 }
 
-.header {
+header {
     display: flex;
     align-items: center;
     background-color: rgb(241, 241, 241);
+    width: 100vw; /* Usa 100% da largura da viewport */
+    left: 0; /* Garante que fique na esquerda */
+    justify-content: space-between; /* Garante que os itens sejam distribuídos adequadamente */
 }
 
-.container{
+#nomeIgreja {
+    font-family: "Anton";
+    font-style: normal; 
+    white-space: nowrap; /*Impede a quebra de linha*/
+  }
+
+#logoSlogan{
+    margin-right: 100%;
     margin-left: 5px;
-    
+
 }
 
-p{
+#slogan {
+    font-family: "Londrina Solid";
     text-align: right;
-    margin-top: -25px;
-}
-
-login {
-    background-color: aqua;
-    width: 400px; /* Aumenta a largura do formulário */
-    padding: 20px; /* Aumenta o espaço interno do formulário */
-    margin: 50px auto; /* Centraliza o formulário e adiciona margem no topo */
-    border-radius: 8px; /* Adiciona bordas arredondadas */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
-}
-
-#login div {
-    margin-bottom: 20px; /* Aumenta o espaçamento entre os campos */
-}
-
-input[type="email"], input[type="password"] {
-    width: 100%; /* Faz os campos de entrada ocuparem toda a largura do formulário */
-    padding: 12px; /* Aumenta o espaçamento interno dos campos */
-    font-size: 16px; /* Aumenta o tamanho da fonte nos campos */
-    border-radius: 4px; /* Bordas arredondadas nos campos de entrada */
-    border: 1px solid #ccc; /* Cor da borda */
-}
-
-button[type="submit"] {
-    padding: 12px 20px; /* Aumenta o tamanho do botão */
-    font-size: 16px; /* Aumenta o tamanho da fonte no botão */
-    width: 100%; /* Faz o botão ocupar toda a largura */
-    border-radius: 4px; /* Bordas arredondadas no botão */
-    cursor: pointer; /* Aponta o cursor como mãozinha */
-}
-
-button[type="submit"]:hover {
-    background-color: #007bff; /* Cor de fundo ao passar o mouse sobre o botão */
-    color: white; /* Cor do texto ao passar o mouse */
-}
+    margin-top: -15px;
+    position: relative;
+} 
