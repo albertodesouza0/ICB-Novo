@@ -7,3 +7,8 @@ function formatarCPF(campo) {
 
     campo.value = cpf;
 }
+
+
+var btnSalvar = document.querySelector("#cadastrar");
+
+console.log(btnSalvar)
